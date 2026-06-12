@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#map{
+    width:100%;
+    height:100vh;
+}
+
+/* Legend */
+
+.legend{
+    background:white;
+    padding:10px;
+    line-height:25px;
+    border-radius:5px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+/* North Arrow */
+
+.north-arrow{
+    background:white;
+    padding:5px;
+    border-radius:5px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+    text-align:center;
+}
