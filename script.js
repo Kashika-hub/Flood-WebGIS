@@ -43,7 +43,7 @@ var buildingLayer = L.layerGroup().addTo(map);
 // LOAD BOUNDARY
 // ======================================
 
-fetch('reprojected/boundary_simple.geojson')
+fetch('./reprojected/boundary_simple.geojson')
 
 .then(response => response.json())
 
@@ -74,7 +74,7 @@ fetch('reprojected/boundary_simple.geojson')
 // LOAD FLOOD ZONES
 // ======================================
 
-fetch('reprojected/flood_zones.geojson')
+fetch('./reprojected/flood_zones.geojson')
 
 .then(response => response.json())
 
@@ -107,7 +107,7 @@ fetch('reprojected/flood_zones.geojson')
 // LOAD RIVERS
 // ======================================
 
-fetch('reprojected/river.geojson')
+fetch('./reprojected/river.geojson')
 
 .then(response => response.json())
 
@@ -143,7 +143,7 @@ fetch('reprojected/river.geojson')
 // LOAD ROADS
 // ======================================
 
-fetch('reprojected/roads.geojson')
+fetch('./reprojected/roads.geojson')
 
 .then(response => response.json())
 
@@ -183,7 +183,7 @@ fetch('reprojected/roads.geojson')
 // LOAD HOSPITALS
 // ======================================
 
-fetch('reprojected/hospitals.geojson')
+fetch('./reprojected/hospitals.geojson')
 
 .then(response => response.json())
 
@@ -227,7 +227,7 @@ fetch('reprojected/hospitals.geojson')
 // LOAD BUILDINGS
 // ======================================
 
-fetch('reprojected/buildings.geojson')
+fetch('./reprojected/buildings.geojson')
 
 .then(response => response.json())
 
